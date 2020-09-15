@@ -1,38 +1,52 @@
 /* Setting background for the boby */
 
 body {
-    background-image: url(ignasi_pattern_s.png)
-  }
+  background-image: url(ignasi_pattern_s.png);
+}
 
 /* wraper for main content */
 
 .wrapper {
-    /* Box-model */
-    width: 1024px;
-  
-    /* Positioning */
-    margin: 30px auto;
+  /* Box-model */
+
+  /* Positioning */
+  justify-content: flex-start;
+  display: flex;
+  margin-left: 150px;
 }
 
 /* Style for all h1 */
 
-h1
-{
-    color: #008B8B;
-    border-bottom:1px solid #565858;
-    padding-bottom:3px;
+h1 {
+  color: #008b8b;
+  border-bottom: 1px solid #565858;
+  padding-bottom: 3px;
 }
 
-  /* background and fornt for the navbar brand */
-.navbar-light .navbar-brand 
-{
-    background: #008B8B;
-    color: aliceblue;
+/* background and fornt for the navbar brand */
+.navbar-light .navbar-brand {
+  background: #008b8b;
+  color: aliceblue;
 }
-  
-.btn-btn-primary
-{
-    background: #008B8B;
-    color:  aliceblue;
 
+.btn-btn-primary {
+  background: #008b8b;
+  color: aliceblue;
+}
+
+.aboutMe {
+  background-color: white;
+  width: 600px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.img-thumbnail {
+  float: left;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    background-color: yellow;
+  }
 }
