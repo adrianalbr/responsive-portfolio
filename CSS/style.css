@@ -1,14 +1,33 @@
+/* Setting background for the boby */
+
+body {
+    background-image: url(ignasi_pattern_s.png)
+  }
+
+/* wraper for main content */
+
 .wrapper {
     /* Box-model */
     width: 1024px;
   
     /* Positioning */
-    margin: 40px auto;
+    margin: 30px auto;
 }
+
+/* Style for all h1 */
 
 h1
 {
-    color: #007bff;
-    border-bottom:1px solid #CCC;
+    color: #008B8B;
+    border-bottom:1px solid #565858;
     padding-bottom:3px;
 }
+
+  /* background and fornt for the navbar brand */
+.navbar-light .navbar-brand 
+{
+    background: #008B8B;
+    color: aliceblue;
+}
+  
+
