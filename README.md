@@ -1,32 +1,32 @@
 # responsive-portfolio
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
-## Directions
+The obejctive of this project is to create a clean portfolio page with 3 pages - About me, Contact, and Portfolio. The design needs to be responsive so users and visitors can access it through various mobile devices and it renders well.
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+The project involved the use of Bootstrap elements, edia queries, and CSS styling file.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+Development phase:
+ - Created the three main files - `index.html`, `portfolio.html` and `contact.html`.
+ - Sketched the pages using pen and paper in order to calculate the number of rows and columns that would be needed for the layouts
+ - Added the required elements from Bootstrap - Nav bar, container for photo and text, and forms.
+ - Brough over the scripts from Bootstrap, and created the CSS file.
+ - Added a simple media query that changes the background when the screen becomes too small
 
-* Using Bootstrap, develop your portfolio site with the following items:
+ Testing phase:
+ - Ensure that the pages look as close as possible to the examples provided and made adjustments as required
+ - Revise column widths
+ - Ensure that the page loaded correctly to Github and tested the various elements.
+ - Used Html validation service
 
-   * A navbar
+ Deployment phase:
+ - Final push to Git Hub
+ - Final test live
 
-   * A responsive layout
+ Please visit my site here - https://adrianalbr.github.io/responsive-portfolio/contact.html
 
-   * Responsive images
 
-* The Bootstrap portfolio should minimize the use of media queries.
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
-### Hints
-
-* Use Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
 * Use an HTML validation service to ensure that each page has valid HTML.
 
@@ -85,6 +85,4 @@ You are required to submit the following:
 
 * The URLs of the GitHub repositories
 
-- - -
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
