@@ -1,4 +1,4 @@
-/* Setting background for the boby */
+/* Setting background for the body */
 
 body {
   background-image: url(ignasi_pattern_s.png);
@@ -7,7 +7,6 @@ body {
 /* wraper for main content */
 
 .wrapper {
-  /* Box-model */
 
   justify-content: flex-start;
   display: flex;
@@ -22,15 +21,19 @@ h1 {
   padding-bottom: 3px;
 }
 
-/* background and fornt for the navbar brand */
+/* background for the navbar brand */
+
 .navbar-light .navbar-brand {
   background: #008b8b;
   color: aliceblue;
 }
 
+/* submit button */
+
 .btn-btn-primary {
   background: #008b8b;
   color: aliceblue;
+  padding: 10px;
 }
 
 .aboutMe {
@@ -42,17 +45,9 @@ h1 {
 .img-thumbnail {
   float: left;
   margin-right: 10px;
-
-
-.imageholder{
-    float: right;
-    margin-right: 10px;
-    padding: 100px;
-    margin-bottom: 100px;
   }
     
-}
-
+  /* Media query that highlights the screen if it gets too small */
 @media only screen and (max-width: 767px) {
   .wrapper {
     background-color: yellow;
