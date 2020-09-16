@@ -29,9 +29,9 @@ See screenshots below
 
 ![Responsive-portfolio](./Assets/Images/aboutMe.jpeg)
 
-![Responsive-portfolio](./Assets/Images/contactMe.jpeg)
+![Responsive-portfolio](./Assets/Images/contatMe.jpeg)
 
-![Responsive-portfolio](./Assets/Images/Portfolio.jpeg)
+![Responsive-portfolio](./Assets/Images/portfolio.jpeg)
 
 
 copyright (c) 2020 Adriana Bonilla-Ramirez
