@@ -1,7 +1,7 @@
 /* Setting background for the body */
 
 body {
-  background-image: url(ignasi_pattern_s.png);
+  background-image: url(IT_Background.jpg)
 }
 
 /* wraper for main content */
@@ -16,7 +16,7 @@ body {
 /* Style for all h1 */
 
 h1 {
-  color: #008b8b;
+  color: darkblue;
   border-bottom: 1px solid #565858;
   padding-bottom: 3px;
 }
@@ -24,8 +24,8 @@ h1 {
 /* background for the navbar brand */
 
 .navbar-light .navbar-brand {
-  background: #008b8b;
-  color: aliceblue;
+  color: darkblue;
+  font-weight: 700;
 }
 
 /* submit button */
