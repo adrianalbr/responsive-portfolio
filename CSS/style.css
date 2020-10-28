@@ -52,6 +52,12 @@ width: 100%;
 margin-bottom: 30px;
 
   }
+
+  #social{
+    vertical-align: middle;
+    border-style: none;
+    width: 60px;
+  }
     
   /* Media query that highlights the screen if it gets too small */
 @media only screen and (max-width: 767px) {
